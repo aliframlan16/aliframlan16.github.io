@@ -1,0 +1,82 @@
+body {
+	background-color: #e6ffff
+}
+.container {
+    width: 80%;
+    margin:0 auto;
+}
+.container:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+header {
+	background-color:  #e6ffff
+}
+header h1{
+    float: left;
+    padding:15px 0px;
+    color: black;
+}
+header ul{
+    float: right;
+}
+header ul li {
+    display: inline-block;
+}
+header ul li a {
+    padding:25px 20px;
+    display: inline-block;
+}
+header ul li a:hover {
+    background-color:black;
+    color: ivory;
+}
+.active{
+    background-color:black;
+    color: ivory;
+}
+.banner{
+	background-color: #b3d9ff;
+    height: 60vh;
+    background-image: url(avocado.jpg) ;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+}
+.banner :after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom:0px;
+}
+.banner h2{
+    color:black;
+    z-index: 5;
+    padding:20px 25px ;
+    border: 3px solid black;
+    border-style: dashed;
+}
+section{
+    padding: 50px 0;
+}
+section h3{
+    text-align: center;
+}
+button {
+	margin-bottom: 10px;
+	margin-top:10px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+.carousel {width: 400px}
+p {
+    text-align: justify;
+}
+h5 {text-align: center;}
